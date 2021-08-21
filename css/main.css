@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body {
+    background-color: #121212;
+    font-family: "Montserrat";
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+}
+
+header a {
+    border: 0;
+    margin: 8px;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    background-color: transparent;
+    color: white;
+}
+
+header img {
+    width: 16px;
+    height: 16px;
+}
+
+main {
+    color: white;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+main h1 {
+    color: #F1C40F;
+}
+
+main input {
+    background: #212121;
+    border: solid;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 16px;
+    border-color: #F1C40F;
+    padding: 8px;
+    width: 500px;
+}
+
+main textarea {
+    background: #212121;
+    border: solid;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 16px;
+    border-color: #F1C40F;
+    padding: 8px;
+    width: 500px;
+    height: 200px;
+}
+
+main button {
+    background: #212121;
+    border: solid;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-color: #F1C40F;
+}
+
+devcards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+devcard {
+    margin: 16px;
+    border: solid;
+    border-radius: 16px;
+    border-color: #F1C40F;
+}
+
+devcard img {
+    border: 0;
+    border-radius: 64px;
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+}
+
+devicescards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+devicecard {
+    margin: 16px;
+    border: solid;
+    border-radius: 16px;
+    border-color: #F1C40F;
+}
+
+devicecard img {
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #212121;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F1C40F;
+}

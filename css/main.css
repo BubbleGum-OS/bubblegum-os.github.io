@@ -119,6 +119,33 @@ devicecard img {
     margin: 16px;
 }
 
+portscards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+portcard {
+    margin: 16px;
+    padding: 24px;
+    border: solid;
+    border-radius: 16px;
+    border-color: #F1C40F;
+}
+
+portcard button {
+    background: #212121;
+    border: solid;
+    color: white;
+    font-size: 1.2em;
+    margin: 16px;
+    border-radius: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-color: #F1C40F;
+}
+
 footer {
     position: fixed;
     bottom: 0;

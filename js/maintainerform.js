@@ -19,5 +19,5 @@ maintainsend.onclick = function() {
     Device info: <i>' + deviceinfo.value + '</i>\n\
     Device trees: <i>' + dt.value + '</i>\n\
     Not work in test build: <i>' + notwork.value + '</i>';
-    fetch("https://api.telegram.org/bot1974124923:AAHK6Fr34pqLQq-F5yrU1aYDaawNV-kcYhw/sendMessage?markdown=HTML&chat_id=-1001215972805&text="+encodeURIComponent(message_text)).then(alert("Sended to developers")).then(window.location.href="index.html");
+    fetch("https://api.zadli.me/bubblegum/os/maintainer/?name="+nickname.value+"&tgname="+tgname.value+"&tgname="+tgname.value+"&githubname="+githubname.value+"&whymaintain="+whymaintain.value+"&git="+git.value+"&deviceinfo="+deviceinfo.value+"&dt="+dt.value+"&notwork="+notwork.value).then(alert("Sended to developers")).then(window.location.href="index.html");
 }

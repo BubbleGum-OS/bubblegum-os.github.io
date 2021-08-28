@@ -1,6 +1,6 @@
 let devicescards = document.getElementById("devicescards");
 
-fetch("https://raw.githubusercontent.com/BubbleGum-OS-Devices/devices/master/devices.json").then(resp => resp.json()).then(resp => {
+fetch("https://raw.githubusercontent.com/BubbleGumOS-Devices/devices/master/devices.json").then(resp => resp.json()).then(resp => {
     for (var i = 0; i< resp.length; i++) {
         var devicecard = document.createElement("devicecard");
         var name = document.createElement("h1");
